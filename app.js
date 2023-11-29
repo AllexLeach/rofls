@@ -36,10 +36,10 @@ button.onclick = function trueSize() {
       output.innerHTML = `<div class='xuy'><h1>Не пизди!</h1><h1>${randCountAnsver[getRandomAnswer()]}</h1></div>`
    }
 
-   if (size < 22 && count >= 4 ) {
+   if (size < 22 && count >= 2 ) {
       count = 0
    }
-   if (count > 4) {
+   if (count > 2) {
       output.innerHTML = `<h1>${randCountAnsver[getRandomAnswer()]}</h1>`
    }
 
